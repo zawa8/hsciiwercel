@@ -38,7 +38,7 @@ steps to use : 1. pls replace ԃis tekst to indiα/nepαl/sinhl/bαnglα.
       <div className="flex gap-2 items-center flex-col sm:flex-row"><Hsciifontpicker/></div>
         <div className="flex gap-1 items-center flex-col sm:flex-row">
 			<button className="" onClick={on_eu2l}>
-				<Image src="/flg8.png" alt="modern india languages" width={100} height={100}/>
+				<Image src="/flggood.png" alt="modern india languages" width={100} height={100}/>
 			</button>
 			<button onClick={on_xvjqK2u}
 				className="bg-transparent hover:bg-green-500 text-green-700 hover:text-black border border-green hover:border-transparent w-[100px] h-[100px]">
