@@ -16,7 +16,7 @@ export default function Home() {
   const iplaceholer = `input: replace/paste here.ԃis is trαnsliterator for phonetical languages.
 steps to use : 1. pls replace ԃis tekst to indiα/nepαl/sinhl/bαnglα.
 1.1 to copy unicode google search : wiki indiα in indian languages
-2. pls press eu2i btn.
+2. pls press 8aiuehocg flxg btn.
 3. result : tekst areα down.`;	
  const b3tekst = `jzqk+h<br>JZQK`;
   const hsciistrobz = new hsciistr("","ascii_and_indikutf","all");
