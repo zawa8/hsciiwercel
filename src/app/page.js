@@ -50,7 +50,7 @@ steps to use : 1. pls replace ԃis tekst to indiα/nepαl/sinhl/bαnglα.
 			</button>
 			<a href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer"
 				className="bg-transparent hover:bg-blue-500 text-black text-sm hover:text-white border border-blue-500 hover:border-transparent w-[100px] h-[100px]">
-				try hsciifont download.install<br/>set in pc.phone<br/>browser
+				try hsciifont<br/>download install<br/>set in pc.phone<br/>browser
 			</a>
         </div>
         <div className="flex min-w-full gap-2 items-center flex-col sm:flex-row">
