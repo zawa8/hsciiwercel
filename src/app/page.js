@@ -46,11 +46,11 @@ steps to use : 1. pls replace ԃis tekst to indiα/nepαl/sinhl/bαnglα.
 			</button>
 			<button onClick={on_kh2uK}
 				className="bg-transparent hover:bg-green-500 text-green-700 hover:text-white border border-green-500 hover:border-transparent w-[100px] h-[100px]">
-				(zjt kqd b)+h<br/>=<br/>ZJT KQD B
+				(zjt kqd bcgp)+h=<br/>ZJT KQD BCGf
 			</button>
 			<a href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer"
 				className="bg-transparent hover:bg-blue-500 text-blue-700 font-bold hover:text-white border border-blue-500 hover:border-transparent w-[100px] h-[100px]">
-				free hscii font
+				hscii font 1.download 2.install set
 			</a>
         </div>
         <div className="flex min-w-full gap-2 items-center flex-col sm:flex-row">
