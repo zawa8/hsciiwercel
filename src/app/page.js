@@ -18,6 +18,7 @@ steps to use : 1. pls replace ԃis tekst to indiα/nepαl/sinhl/bαnglα.
 1.1 to copy unicode google search : wiki indiα in indian languages
 2. pls press eu2i btn.
 3. result : tekst areα down.`;	
+ const b3tekst = `jzqk+h<br>JZQK`;
   const hsciistrobz = new hsciistr("","ascii_and_indikutf","all");
   const [iteksta, set_iteksta] = useState("");
   const handle_ita_change = (event) => { set_iteksta(event.target.value); };
@@ -40,7 +41,8 @@ steps to use : 1. pls replace ԃis tekst to indiα/nepαl/sinhl/bαnglα.
 				className="" onPress={on_eu2l}></Button>
 			<Button startContent={<Image src="/xvJQ.jpg" alt="modern india languages" width={100} height={100}/>}
 				className="border-black border-2" onPress={on_xvjqK2u}></Button>
-			<Button className="border-black border-2" onPress={on_kh2uK}>kh2uK</Button>
+			<Button startContent={<Image src="/jqh.jpg" alt="modern india languages" width={100} height={100}/>}
+			 className="border-black border-2" onPress={on_kh2uK}></Button>
 			<a className="border-black border-2" href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer" > free hscii fonts </a>
         </div>
         <div className="flex min-w-full gap-2 items-center flex-col sm:flex-row">
