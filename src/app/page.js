@@ -36,14 +36,15 @@ steps to use : 1. pls replace ԃis tekst to indiα/nepαl/sinhl/bαnglα.
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-20 gap-16 sm:p-20 ]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
       <div className="flex gap-4 items-center flex-col sm:flex-row"><Hsciifontpicker/></div>
-        <div className="flex gap-2 items-center flex-col sm:flex-row">
+        <div className="flex gap-1 items-center flex-col sm:flex-row">
 			<Button startContent={<Image src="/flg8.jpg" alt="modern india languages" width={100} height={100}/>}
-				className="" onPress={on_eu2l}></Button>
+				className="border-black border-2" onPress={on_eu2l}></Button>
 			<Button startContent={<Image src="/xvJQ.jpg" alt="modern india languages" width={100} height={100}/>}
 				className="border-black border-2" onPress={on_xvjqK2u}></Button>
 			<Button startContent={<Image src="/jqh.jpg" alt="modern india languages" width={100} height={100}/>}
 			 className="border-black border-2" onPress={on_kh2uK}></Button>
-			<a className="border-black border-2" href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer" > free hscii fonts </a>
+			<a className="border-black border-2" href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer"
+			><Image src="/4fngronli.png" alt="modern india languages" width={100} height={100}/></a>
         </div>
         <div className="flex min-w-full gap-2 items-center flex-col sm:flex-row">
           <Textarea id="ita"  rows={12} className="w-full border-black" value={iteksta}  onChange={handle_ita_change} placeholder={iplaceholer} />
