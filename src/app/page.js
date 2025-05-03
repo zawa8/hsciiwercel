@@ -35,14 +35,23 @@ steps to use : 1. pls replace ԃis tekst to indiα/nepαl/sinhl/bαnglα.
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-20 gap-16 sm:p-20 ]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-      <div className="flex gap-4 items-center flex-col sm:flex-row"><Hsciifontpicker/></div>
+      <div className="flex gap-2 items-center flex-col sm:flex-row"><Hsciifontpicker/></div>
         <div className="flex gap-1 items-center flex-col sm:flex-row">
-			<Button startContent={<Image src="/flg8.png" alt="modern india languages" width={100} height={100}/>}
-				className="border-black border-2" onPress={on_eu2l}></Button>
-			<Button className="border-black border-2" onPress={on_xvjqK2u}><vxQKDJTZ/Button>
-			<Button className="border-black border-2" onPress={on_kh2uK}>thqhkhjhzh2TQKJZ</Button>
-			<a className="border-black border-2" href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer"
-			>free hscii font</a>
+			<button className="" onClick={on_eu2l}>
+				<Image src="/flg8.png" alt="modern india languages" width={100} height={100}/>
+			</button>
+			<button onClick={on_xvjqK2u}
+				className="bg-transparent hover:bg-green-500 text-green-700 hover:text-black border border-green hover:border-transparent w-[100px] h-[100px]">
+				vwx QKD BS JTZ CG yrf lmn kztd pbs aiueohcg
+			</button>
+			<button onClick={on_kh2uK}
+				className="bg-transparent hover:bg-green-500 text-green-700 hover:text-white border border-green-500 hover:border-transparent w-[100px] h-[100px]">
+				(zjt kqd b)+h<br/>=<br/>ZJT KQD B
+			</button>
+			<a href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer"
+				className="bg-transparent hover:bg-blue-500 text-blue-700 font-bold hover:text-white border border-blue-500 hover:border-transparent w-[100px] h-[100px]">
+				free hscii font
+			</a>
         </div>
         <div className="flex min-w-full gap-2 items-center flex-col sm:flex-row">
           <Textarea id="ita"  rows={12} className="w-full border-black" value={iteksta}  onChange={handle_ita_change} placeholder={iplaceholer} />
