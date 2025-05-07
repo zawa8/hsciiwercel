@@ -3,7 +3,8 @@ import Image from "next/image";
 import {  useState } from 'react';
 import {Textarea} from "@heroui/input";
 import {Button} from "@heroui/button";
-import { hsciistr, enum_from, enum_tu}  from "hsciistr"
+// import { hsciistr, enum_from, enum_tu}  from "hsciistr"
+import {hsciistr} from 'hsciistr';
 import { Hsciifontpicker } from "@/components/hscii/hsciifontpicker";
 export default function Home() {
 	const sampletkst = `test: select language binary/inglish4/... n see changes vere(here).
@@ -19,7 +20,7 @@ steps to use : 1. pls replace ԃis tekst to indiα/nepαl/sinhl/bαnglα.
 2. pls press 8aiuehocg flxg btn.
 3. result : tekst areα down.`;	
  const b3tekst = `jzqk+h<br>JZQK`;
-  const hsciistrobz = new hsciistr(enum_from.both,enum_tu.all);
+  const hsciistrobz = new hsciistr(hsciistr.enum_from.ascii_and_indik,hsciistr.enum_tu.all);
   const [iteksta, set_iteksta] = useState("");
   const handle_ita_change = (event) => { set_iteksta(event.target.value); };
   function on_kh2uK() { set_iteksta(hsciistrobz.setistr(iteksta).kh2hindiK().istr); }
