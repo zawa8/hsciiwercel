@@ -5,7 +5,7 @@ import {Textarea} from "@heroui/input";
 import {Button} from "@heroui/button";
 // import { hsciistr, enum_from, enum_tu}  from "hsciistr"
 import {hsciistr} from 'hsciistr';
-import { Hsciifontpicker } from "@/components/hscii/hsciifontpicker";
+import { Hsciifontpicker } from "@/components/hsciifontlib/hsciifontpicker";
 export default function Home() {
 	const sampletkst = `test: select language binary/inglish4/... n see changes vere(here).
   x.com=xmericα=Americα=Aks.com
